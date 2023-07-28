@@ -18,7 +18,7 @@ const LoginScreen: React.FC<PropsLoginScreen> = ({ navigation }) => {
   const [password, setPassword] = React.useState("password");
 
   const doLogin = () => {
-    if (username === hardcodedUserName && password === hardcodedPassword || true) {
+    if (username === hardcodedUserName && password === hardcodedPassword) {
       Alert.alert(
         "Info",
         "Login Success",
